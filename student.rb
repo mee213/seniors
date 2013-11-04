@@ -39,9 +39,7 @@ seniors(all_students).each do |student|
 	puts " * " + student.to_s
 end
 
-puts
-
-puts "Juniors"
+puts "\nJuniors"
 
 juniors(all_students).each do |student|
 	puts " * " + student.to_s
